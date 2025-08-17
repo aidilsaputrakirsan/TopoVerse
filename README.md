@@ -1,11 +1,11 @@
-# FossFLOW - Isometric Diagramming Tool
+# TopoVerse - Isometric Diagramming Tool
 
-FossFLOW is a powerful, open-source Progressive Web App (PWA) for creating beautiful isometric diagrams. Built with React and the Isoflow (Now forked and published to NPM as fossflow) library, it runs entirely in your browser with offline support.
+TopoVerse is a powerful, open-source Progressive Web App (PWA) for creating beautiful isometric diagrams. Built with React and the Isoflow (Now forked and published to NPM as fossflow) library, it runs entirely in your browser with offline support.
 
-![Screenshot_20250630_160954](https://github.com/user-attachments/assets/e7f254ad-625f-4b8a-8efc-5293b5be9d55)
+![TopoVerse Screenshot](https://github.com/user-attachments/assets/e7f254ad-625f-4b8a-8efc-5293b5be9d55)
 
-- **📝 [FOSSFLOW_TODO.md](https://github.com/stan-smith/FossFLOW/blob/main/ISOFLOW_TODO.md)** - Current issues and roadmap with codebase mappings, most gripes are with the isoflow library itself.
-- **🤝 [CONTRIBUTORS.md](https://github.com/stan-smith/FossFLOW/blob/main/CONTRIBUTORS.md)** - How to contribute to the project.
+- **📝 [TOPOVERSE_TODO.md](https://github.com/aidilsaputrakirsan/TopoVerse/blob/main/ISOFLOW_TODO.md)** - Current issues and roadmap with codebase mappings, most gripes are with the isoflow library itself.
+- **🤝 [CONTRIBUTORS.md](https://github.com/aidilsaputrakirsan/TopoVerse/blob/main/CONTRIBUTORS.md)** - How to contribute to the project.
 
 ## Recent Updates (August 2025)
 
@@ -51,7 +51,7 @@ FossFLOW is a powerful, open-source Progressive Web App (PWA) for creating beaut
 
 ## Try it online
 
-Go to https://stan-smith.github.io/FossFLOW/
+Go to https://aidilsaputrakirsan.github.io/TopoVerse/
 
 ## 🐳 Quick Deploy with Docker
 
@@ -74,8 +74,8 @@ docker run -p 80:80 -e ENABLE_SERVER_STORAGE=false stnsmith/fossflow:latest
 
 ```bash
 # Clone the repository
-git clone https://github.com/stan-smith/FossFLOW
-cd FossFLOW
+git clone https://github.com/aidilsaputrakirsan/TopoVerse
+cd TopoVerse
 
 # Install dependencies
 npm install
@@ -147,6 +147,10 @@ We welcome contributions! Please see [CONTRIBUTORS.md](CONTRIBUTORS.md) for guid
 - [ISOFLOW_ENCYCLOPEDIA.md](ISOFLOW_ENCYCLOPEDIA.md) - Comprehensive guide to the codebase
 - [ISOFLOW_TODO.md](ISOFLOW_TODO.md) - Current issues and roadmap
 - [CONTRIBUTORS.md](CONTRIBUTORS.md) - Contributing guidelines
+
+## About
+
+TopoVerse is forked from [FossFLOW](https://github.com/stan-smith/FossFLOW) by [stan-smith](https://github.com/stan-smith). This fork provides an independent development environment for creating beautiful isometric infrastructure diagrams.
 
 ## License
 
