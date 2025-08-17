@@ -34,7 +34,7 @@ jobs:
         with:
           args: sh -c "npm install && npm run build:lib && npm run build:app"
         env:
-          # do not report warnings as errors
+          # do not report warnings as errorss
           CI: false
           PUBLIC_URL: https://aidilsaputrakirsan.github.io/TopoVerse/
       - name: Upload artifact
